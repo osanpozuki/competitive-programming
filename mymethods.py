@@ -7,3 +7,7 @@ def is_prime(n):
 
     return True
 
+
+# using: 1 2 3 => [1, 2, 3]
+def input_parse_int():
+    return [int(i) for i in input().split(' ')]
